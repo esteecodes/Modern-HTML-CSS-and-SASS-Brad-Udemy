@@ -50,6 +50,11 @@ img {
   position: fixed;
   top: 0px;
   padding: 0 30px;
+  transition: 0.5s;
+}
+
+.navbar.top {
+  background: transparent;
 }
 
 .navbar a {
@@ -113,9 +118,18 @@ img {
   z-index: 10;
 }
 
+.hero.blog {
+  background: url("../images/home/blog.jpg") no-repeat center center/cover;
+  height: 40vh;
+}
+
 /* Icons */
 .icons {
-  padding: 30px;
+  padding: 20px;
+}
+
+.icons div {
+  margin: 15px;
 }
 
 .icons h3 {
@@ -170,6 +184,31 @@ img {
   margin-top: 20px;
 }
 
+/* Post */
+.post {
+  width: 60%;
+  margin: auto;
+  padding: 50px 30px;
+}
+
+.post h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.post .meta {
+  margin-bottom: 30px;
+}
+
+.post img {
+  width: 300px;
+  border-radius: 70% 0 70% 0;
+  display: block;
+  margin: 0 auto 30px;
+}
+
 /* Footer */
 .footer {
   display: flex;
@@ -190,4 +229,57 @@ img {
 
 .footer .social > * {
   margin-right: 30px;
+}
+
+/* Mobile */
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    height: 120px;
+    padding: 20px;
+  }
+
+  .navbar a {
+    padding: 10px;
+    margin: 0 3px;
+  }
+
+  .hero.blog {
+    background: url("../images/home/blog.jpg") no-repeat center center/cover;
+    height: 50vh;
+  }
+
+  .hero .content h1 {
+    font-size: 2.7rem;
+    padding-top: 10vh;
+  }
+
+  .hero .content p {
+    font-size: 1.2rem;
+  }
+
+  .flex-items {
+    flex-direction: column;
+  }
+
+  .flex-items div {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .flex-columns .column,
+  .flex-grid .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+
+  .team img {
+    width: 75%;
+  }
+
+  .post {
+    width: 90%;
+    margin: auto;
+  }
 }

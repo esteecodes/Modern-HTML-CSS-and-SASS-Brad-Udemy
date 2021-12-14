@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=`, initial-scale=1.0">
+  <link rel="stylesheet" href="css/lightbox.min.css">
   <link rel="stylesheet" href="css/utilities.css">
   <link rel="stylesheet" href="css/style.css">
   <!-- Font Awesome link from https://cdnjs.com/libraries/font-awesome -->
@@ -13,7 +14,7 @@
 </head>
 <body id="home">
   <header class="hero">
-    <div id="navbar" class="navbar">
+    <div id="navbar" class="navbar top">
       <h1 class="logo">
         <span class="text-primary"><i class="fas fa-book-open"></i> Edge</span>Ledger
       </h1>
@@ -91,20 +92,36 @@
       </header>
       <div class="row">
         <div class="column">
-          <img src="./images/cases/cases1.jpg" alt="">
-          <img src="./images/cases/cases2.jpg" alt="">
+          <a href="./images/cases/cases1.jpg" data-lightbox="cases" data-title="Lorem ipsum dolor sit">
+            <img src="./images/cases/cases1.jpg" alt="">
+          </a>
+          <a href="./images/cases/cases2.jpg" data-lightbox="cases" data-title="Lorem ipsum dolor sit">
+            <img src="./images/cases/cases2.jpg" alt="">
+          </a>
         </div>
         <div class="column">
-          <img src="./images/cases/cases3-1.jpg" alt="">
-          <img src="./images/cases/cases4.jpg" alt="">
+          <a href="./images/cases/cases3.jpg" data-lightbox="cases" data-title="Lorem ipsum dolor sit">
+            <img src="./images/cases/cases3.jpg" alt="">
+          </a>
+          <a href="./images/cases/cases4.jpg" data-lightbox="cases" data-title="Lorem ipsum dolor sit">
+            <img src="./images/cases/cases4.jpg" alt="">
+          </a>
         </div>
         <div class="column">
-          <img src="./images/cases/cases5.jpg" alt="">
-          <img src="./images/cases/cases6.jpg" alt="">
+          <a href="./images/cases/cases5.jpg" data-lightbox="cases" data-title="Lorem ipsum dolor sit">
+            <img src="./images/cases/cases5.jpg" alt="">
+          </a>
+          <a href="./images/cases/cases6.jpg" data-lightbox="cases" data-title="Lorem ipsum dolor sit">
+            <img src="./images/cases/cases6.jpg" alt="">
+          </a>
         </div>
         <div class="column">
-          <img src="./images/cases/cases7.jpg" alt="">
-          <img src="./images/cases/cases8-1.jpg" alt="">
+          <a href="./images/cases/cases7.jpg" data-lightbox="cases" data-title="Lorem ipsum dolor sit">
+            <img src="./images/cases/cases7.jpg" alt="">
+          </a>
+          <a href="./images/cases/cases8.jpg" data-lightbox="cases" data-title="Lorem ipsum dolor sit">
+            <img src="./images/cases/cases8.jpg" alt="">
+          </a>
         </div>
       </div>
     </section>
@@ -122,7 +139,7 @@
             <h4>April 16 2020</h4>
             <h2>Blog Post One</h2>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio maxime id officia itaque eum repellat velit tempora est numquam facilis? Tempore, amet repudiandae. Ipsum voluptatum, obcaecati omnis unde facilis magnam?</p>
-            <a href="" class="btn btn-outline"><i class="fas fa-chevron"></i> Read Our Blog</a>    
+            <a href="blog.html" class="btn btn-outline"><i class="fas fa-chevron"></i> Read Our Blog</a>    
           </div>
         </div>
       </div>
@@ -185,7 +202,7 @@
       </div>
     </section>
   </main>
-
+  
   <!-- Footer -->
   <footer class="footer bg-dark">
     <div class="social">
@@ -196,5 +213,11 @@
     </div>
     <p>Copyright &copy; 2020 - EdgeLedger | by <a href="https://github.com/esteecodes" target="_blank" rel="noopener noreferrer">esteecodes</a></p>
   </footer>
+    <!-- iQuery Scroll Placement -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="js/lightbox.min.js"></script>
+    <!-- It needs iQuery script too the navbar js to work for some reason -->
+    <script src="js/app.js"></script>
+    <script src="js/jquery.js"></script>
 </body>
 </html>
