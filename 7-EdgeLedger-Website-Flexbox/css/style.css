@@ -57,13 +57,13 @@ img {
   background: transparent;
 }
 
-.navbar a {
+.navbar .page-link {
   color: #fff;
   padding: 10px 20px;
   margin: 0 5px;
 }
 
-.navbar a:hover {
+.navbar .page-link:hover {
   border-bottom: #28a745 2px solid;
 }
 
@@ -73,6 +73,7 @@ img {
 
 .navbar .logo {
   font-weight: 400;
+  color: #fff;
 }
 
 /* Header */

@@ -2,7 +2,7 @@
 
 /* BUG FIXED --- on original example .btn is included but it should NOT be included, 
 because the blog page link (Read Our Blog) also gets affected by .preventDefault 
-and the blog page doesn't open !!! */
+and the blog page doesn't open !!! @esteecodes */
 
 // $('#navbar a, .btn').on('click', function (e) {
 //   if (this.hash !== ""); {
