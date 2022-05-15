@@ -2,7 +2,7 @@
 <p> Here are a couple of the projects I did when I was taking thes course <br>
   by Brad Traversy on Udemy - Sep 15, 2021<p>
     
-<h2><a href="https://esteecodes.github.io/Modern-HTML-CSS-and-SASS-Brad-Udemy/7-EdgeLedger-Website-Flexbox/" target="_blank">7. EdgeLedger</a></h2>
+<h2><a href="https://esteecodes.github.io/EdgeLedger/" target="_blank">7. EdgeLedger - moved to a seperate Repo</a></h2>
 <h2><a href="https://esteecodes.github.io/Modern-HTML-CSS-and-SASS-Brad-Udemy/15-Portfolio-Website-With-Sass/" target="_blank">15. Portfolio Website With Sass</a></h2>
 
 <h3>Connect with me on Social Media ↓</h3>
